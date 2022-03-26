@@ -19,18 +19,18 @@ POST /api/tariffs
 
 PUT /api/tariffs 
 {
-  "id": <insert product id>,
+  "id": @insert tariff id@,
   "name": "New_Maximum"
 }
   
 GET /api/tariffs 
 {
-  "id": <insert product id>
+  "id": @insert tariff id@
 }
   
 OR send request without a body to get all tariffs
   
 DELETE /api/tariffs 
 {
-  "id": <insert product id>
+  "id": @insert tariff id@
 }
