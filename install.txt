@@ -1,0 +1,15 @@
+flask
+fastapi
+requests
+flask-migrate
+psycopg2-binary
+flask-sqlalchemy
+uvicorn[standard]
+
+# python3 -m venv modules
+# pip3 freeze > install.txt
+# pip3 install --upgrade -r install.txt
+
+# export FLASK_APP=app.py; flask db init
+# export FLASK_APP=app.py; flask db migrate
+# export FLASK_APP=app.py; flask db upgrade
