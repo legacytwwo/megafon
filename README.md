@@ -11,7 +11,7 @@ And 'pip3 install --upgrade -r install.txt'
 
 The server is activated with 'python index.py'
 
-Testing with Postman:
+Testing with Postman. Query examples:
 
 POST /api/tariffs 
 {
