@@ -3,7 +3,7 @@
 
 возможность вставки, чтения, удаления и изменения данных в этом хранилище данных. Используемый стек ничем не ограничен.
 
-Sqlite is used as db
+Sqlite is used as db. Id is generated automatically with uuid4.
 
 Start with 'python3 -m venv modules'
 
